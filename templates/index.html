@@ -1,0 +1,14 @@
+{{user}}
+    {{user.username}}
+    {{user.displayname}}
+
+<!-- {% if request.user is authenticated %}
+    {{user.displayname}}
+    {{user.username}} -->
+<!-- {% else %} -->
+    <a href="/signup">Sign Up Here</a>
+
+    <a href="/login/">Login Here!</a>
+<!-- {% endif %} -->
+
+<a href="/logout/">Logout Here!</a>
